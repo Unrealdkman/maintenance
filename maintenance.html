@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maintenance | Chrome Engine Modding Wiki</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #111;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      backdrop-filter: blur(4px);
+    }
+
+    .maintenance-container {
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 2rem 3rem;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+      text-align: center;
+      max-width: 500px;
+    }
+
+    .maintenance-container h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #00ffff;
+    }
+
+    .maintenance-container p {
+      font-size: 1rem;
+      color: #ccc;
+    }
+
+    .gear {
+      font-size: 3rem;
+      animation: spin 3s linear infinite;
+      display: block;
+      margin: 1.5rem auto;
+      color: #00ffff;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="maintenance-container">
+    <div class="gear">⚙️</div>
+    <h1>We'll be back soon!</h1>
+    <p>The <strong>Chrome Engine Modding Wiki</strong> is currently undergoing scheduled maintenance.<br>Please check back in a bit.</p>
+    <div class="footer">
+      Need help? Contact us at <a href="mailto:dev.idkman@gmail.com">dev.idkman@gmail.com</a>
+    </div>
+  </div>
+</body>
+</html>
